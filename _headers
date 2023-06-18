@@ -1,0 +1,7 @@
+/*
+  content-security-policy: upgrade-insecure-requests; default-src 'self'; base-uri 'self'; frame-src 'self'; frame-ancestors 'self'; form-action 'self'
+  referrer-policy: strict-origin-when-cross-origin
+  strict-transport-security: max-age=63072000; includeSubDomains; preload
+  x-content-type-options: nosniff
+  x-frame-options: DENY
+  x-xss-protection: 1; mode=block
